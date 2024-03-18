@@ -1,0 +1,21 @@
+* C:\Users\22121082\Desktop\EEE205 Exp02\Half-wave without cap.sch
+
+* Schematics Version 9.2
+* Mon Mar 18 15:49:55 2024
+
+
+
+** Analysis setup **
+.tran 0ns 2ms
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "Half-wave without cap.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
